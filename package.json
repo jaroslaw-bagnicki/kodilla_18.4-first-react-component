@@ -1,0 +1,22 @@
+{
+  "name": "18.2_first-react-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server src --files src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaroslaw-bagnicki/kodilla_18.2-first-react-app.git"
+  },
+  "author": "Jarosław Bagnicki <jarek@bagnicki.net>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/jaroslaw-bagnicki/kodilla_18.2-first-react-app/issues"
+  },
+  "homepage": "https://github.com/jaroslaw-bagnicki/kodilla_18.2-first-react-app#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3"
+  }
+}
