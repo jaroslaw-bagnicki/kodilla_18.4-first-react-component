@@ -2,7 +2,10 @@ module.exports = {
     "env": {
         "browser": true
     },
-    "extends": "eslint:recommended",
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
     "parserOptions": {
         "ecmaVersion": 5
     },
@@ -19,5 +22,22 @@ module.exports = {
         ],
         "no-console": "warn",
         "no-unused-vars": "warn",
+    },
+    "settings": {
+      "react": {
+        "createClass": "createReactClass", 
+        "pragma": "React",
+        "version": "detect", 
+        "flowVersion": "0.53"
+      },
+      "propWrapperFunctions": [
+        "forbidExtraProps",
+        {"property": "freeze", "object": "Object"},
+        {"property": "myFavoriteWrapper"}
+      ]
+    },
+    "globals": {
+      "React": true,
+      "ReactDOM": true
     }
 };

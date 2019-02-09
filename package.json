@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/jaroslaw-bagnicki/kodilla_18.2-first-react-app#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.3"
+    "browser-sync": "^2.26.3",
+    "eslint": "^5.13.0",
+    "eslint-plugin-react": "^7.12.4"
   }
 }
