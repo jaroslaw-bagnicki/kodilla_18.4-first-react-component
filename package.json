@@ -1,5 +1,5 @@
 {
-  "name": "18.2_first-react-app",
+  "name": "18.4_react-components",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaroslaw-bagnicki/kodilla_18.2-first-react-app.git"
+    "url": "git+https://github.com/jaroslaw-bagnicki/kodilla_18.4-react-components.git"
   },
   "author": "Jarosław Bagnicki <jarek@bagnicki.net>",
   "license": "Unlicense",
-  "bugs": {
-    "url": "https://github.com/jaroslaw-bagnicki/kodilla_18.2-first-react-app/issues"
-  },
-  "homepage": "https://github.com/jaroslaw-bagnicki/kodilla_18.2-first-react-app#readme",
+  "homepage": "https://github.com/jaroslaw-bagnicki/kodilla_18.4-react-components#readme",
   "devDependencies": {
     "browser-sync": "^2.26.3",
     "eslint": "^5.13.0",
